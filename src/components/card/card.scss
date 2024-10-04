@@ -1,0 +1,48 @@
+$main-color: #FF6060;
+
+.logements-card {
+    padding: 20px;
+
+    .logements {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 25px;
+        flex-wrap: wrap;
+
+
+
+        .card:nth-child(1),
+        .card:nth-child(2),
+        .card:nth-child(3){
+            margin-top: 0;
+        }
+        .card {
+            // width: 400px;
+            width: calc(33% - 15px);
+            height: 340px;
+            background: $main-color;
+            border-radius: 10px;
+            margin-top: 20px;
+
+            a{
+                text-decoration: none;
+            }
+
+
+            img {
+                width: 100%;
+                height: 80%;
+                border-radius: 10px 10px 0 0;
+                object-fit: cover;
+                margin-bottom: 15px;
+            }
+
+            span {
+
+                color: #fff;
+            }
+        }
+
+    }
+}

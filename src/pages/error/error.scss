@@ -1,0 +1,28 @@
+$color-main:#FF6060;
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .title-404{
+        font-size: 250px;
+        font-weight: 700;
+        color: $color-main;
+    }
+
+    .sub-title{ 
+        position: relative;
+        font-size: 25px;
+        color: $color-main;
+        top: -150px;
+        // font-family: 'Montserrat';
+        // font-weight: 600;
+    }
+    span{
+        position: relative;
+        top: -100px;
+        color: #000000;
+    }
+    
+}

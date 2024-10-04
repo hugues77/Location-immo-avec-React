@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+// variables colors
+$main-color:#FF6060;
+
+*{
+  font-family: "Montserrat";
+}
+
 .App {
   text-align: center;
 }
@@ -12,9 +20,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.App{
+  min-height: 100vh;
 
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #282c34; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +37,21 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.main-container{
+  width: 100%;
+  max-width: 1240px;
+  padding: 0 60px;
+}
+
+footer .footer{
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+
 }
 
 @keyframes App-logo-spin {
