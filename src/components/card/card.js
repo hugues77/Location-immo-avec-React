@@ -26,32 +26,8 @@ export default function Card() {
 
                         </div>
                     ) )
-                }
-                {/* <div className='card'>
-                    <img src={Elephant2} alt="card image1" />
-                    <span>Titre de la location</span>
-
-                </div>
-                <div className='card'>
-                    <img src={Elephant} alt="card image1" />
-                    <span>Titre de la location</span>
-
-                </div>
-                <div className='card'>
-                    <img src={Elephant} alt="card image1" />
-                    <span>Titre de la location</span>
-
-                </div>
-                <div className='card'>
-                    <img src={Elephant} alt="card image1" />
-                    <span>Titre de la location</span>
-
-                </div>
-                <div className='card'>
-                    <img src={Elephant} alt="card image1" />
-                    <span>Titre de la location</span>
-
-                </div> */}
+                } 
+               
             </div>
         </>
     )
