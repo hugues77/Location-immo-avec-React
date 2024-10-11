@@ -1,0 +1,23 @@
+$color-text: #ff6060;
+
+@mixin slide-align {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tag-log {
+  @include slide-align();
+  margin-bottom: 10px;
+  justify-content: flex-start;
+  margin-top: 20px;
+
+  span {
+    background: $color-text;
+    margin-right: 20px;
+    width: 115px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+  }
+}

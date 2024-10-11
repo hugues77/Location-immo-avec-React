@@ -1,0 +1,83 @@
+$color-text: #ff6060;
+.main-slideshow {
+  width: 100%;
+  height: 415px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+}
+
+@mixin slide-align {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@mixin slide-text {
+  justify-content: space-between;
+}
+
+.slide-content {
+  @include slide-align();
+  justify-content: space-between;
+  margin-bottom: 10px;
+  .title-log {
+    .title {
+      font-size: 36px;
+      color: $color-text;
+    }
+    .region-log {
+      text-align: left;
+      font-weight: 500;
+      line-height: 25px;
+    }
+  }
+  .profil .title-profil {
+    @include slide-align();
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .title-name {
+      display: flex;
+      justify-content: center;
+      // align-items: start;
+      flex-direction: column;
+      text-align: right;
+
+      span {
+        position: relative;
+        right: -30px;
+        color: $color-text;
+      }
+    }
+
+    img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+    }
+  }
+  .stars {
+    margin-top: 30px;
+  }
+}
+.slide-collapse {
+  @include slide-align;
+  justify-content: space-between;
+
+  .collapse-item {
+    width: calc(50% - 30px);
+    height: auto;
+    text-align: justify;
+
+    li {
+      line-height: 16px;
+      font-size: 16px;
+    }
+  }
+}
