@@ -5,6 +5,10 @@ import dataJson from "../../data/logements.json";
 import { useEffect, useState } from "react";
 
 export default function Card() {
+  //recherche d'un logement qui n'a qu'une photo de slider
+  // const nblogement = dataJson.find((data) => data.pictures.length === 1);
+  // console.log(nblogement);
+
   const [Logements, setLogements] = useState(null);
   useEffect(() => {
     // console.log({Appart});

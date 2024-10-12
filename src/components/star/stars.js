@@ -8,9 +8,9 @@ export default function Stars({ rating }) {
 
   for (let i = 0; i < 5; i++) {
     if (i < rating) {
-      stars.push(<img src={Ratings} key={i} alt={`star i`} />);
+      stars.push(<img src={Ratings} key={i} alt={`star` + i} />);
     } else {
-      stars.push(<img src={RatingsFalse} key={i} alt={`star i`} />);
+      stars.push(<img src={RatingsFalse} key={i} alt={`star` + i} />);
     }
   }
   // console.log(rating);

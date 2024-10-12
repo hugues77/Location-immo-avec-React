@@ -65,9 +65,9 @@ export function Logement() {
             <div className="collapse-item">
               <Collapse title="Equipements">
                 {logement.equipments.map((equip, index) => (
-                  <ul key={index}>
-                    <li>{equip} </li>
-                  </ul>
+                  <div key={index}>
+                    <span>{equip} </span>
+                  </div>
                 ))}
               </Collapse>
             </div>
