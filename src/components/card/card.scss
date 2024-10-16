@@ -2,6 +2,9 @@ $main-color: #ff6060;
 
 .logements-card {
   padding: 20px;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
 
   .logements {
     display: flex;
@@ -10,10 +13,20 @@ $main-color: #ff6060;
     margin-top: 25px;
     flex-wrap: wrap;
 
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
     .card:nth-child(1),
     .card:nth-child(2),
     .card:nth-child(3) {
       margin-top: 0;
+    }
+    @media screen and (max-width: 768px) {
+      .card:nth-child(2),
+      .card:nth-child(3) {
+        margin-top: 20px;
+      }
     }
     .card {
       // width: 400px;
@@ -22,6 +35,11 @@ $main-color: #ff6060;
       background: $main-color;
       border-radius: 10px;
       margin-top: 20px;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        height: 255px;
+      }
 
       a {
         text-decoration: none;
@@ -33,6 +51,10 @@ $main-color: #ff6060;
         border-radius: 10px 10px 0 0;
         object-fit: cover;
         margin-bottom: 15px;
+
+        @media screen and (max-width: 768px) {
+          margin-bottom: 10px;
+        }
       }
 
       span {
@@ -44,6 +66,10 @@ $main-color: #ff6060;
       font-size: 18px;
       color: #ff6060;
       text-align: center;
+
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+      }
     }
   }
 }

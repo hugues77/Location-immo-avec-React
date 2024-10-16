@@ -16,7 +16,7 @@ export default function Card() {
   }, []);
   // const [Appart, setAppart] = useState([]);
 
-  return (
+  return ( 
     <>
       <div className="logements">
         {Logements ? (

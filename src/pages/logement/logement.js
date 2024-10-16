@@ -30,7 +30,7 @@ export function Logement() {
     }
   }, [id, redirect]);
 
-  return (
+  return ( 
     <div>
       {logement && (
         <div className="main-logement">
@@ -39,21 +39,25 @@ export function Logement() {
             <div className="title-log">
               <div className="title">{logement.title} </div>
               <div className="region-log">{logement.location} </div>
-              <div className="tag-log">
-                <Tags tags={logement.tags} />
-              </div>
             </div>
             <div className="profil">
-              <div className="title-profil">
-                <span className="title-name">
-                  <span>{logement.host.name.split(" ")[0]} </span>
-                  <span>{logement.host.name.split(" ")[1]} </span>
+              <span className="title-name">
+                <span className="text-span">
+                  {logement.host.name.split(" ")[0]}{" "}
                 </span>
-                <img src={logement.host.picture} alt="profil hote" />
-              </div>
-              <div className="stars">
-                <Stars rating={logement.rating} />
-              </div>
+                <span className="text-span">
+                  {logement.host.name.split(" ")[1]}{" "}
+                </span>
+              </span>
+              <img src={logement.host.picture} alt="profil hote" />
+            </div>
+          </div>
+          <div className="sub-slide-content">
+            <div className="tags">
+              <Tags tags={logement.tags} />
+            </div>
+            <div className="stars">
+              <Stars rating={logement.rating} />
             </div>
           </div>
           <div className="slide-collapse">

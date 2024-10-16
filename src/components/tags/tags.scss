@@ -8,16 +8,26 @@ $color-text: #ff6060;
 
 .tag-log {
   @include slide-align();
-  margin-bottom: 10px;
   justify-content: flex-start;
-  margin-top: 20px;
 
   span {
     background: $color-text;
     margin-right: 20px;
     width: 115px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: 700;
     border-radius: 10px;
     color: #fff;
-    padding: 5px 10px;
+    padding: 5px 15px;
+
+    @media screen and (max-width: 768px) {
+      width: 84px;
+      height: 18px;
+      font-size: 10px;
+      line-height: 14px;
+      text-align: center;
+      border-radius: 8px;
+    }
   }
 }

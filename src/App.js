@@ -31,7 +31,9 @@ function App() {
             <p>
               <img src={LogoFooter} alt="Footer kasa" />
             </p>
-            <span> © 2020 Kasa. All rights reserved</span>
+            <div className="footer-phone">
+              <span> © 2020 Kasa. All rights reserved</span>
+            </div>
           </div>
         </footer>
       </div>

@@ -1,6 +1,7 @@
 .main-collapse {
   // padding: 50px 0;
   margin-bottom: 20px;
+  margin-top: 10px;
 
   .head {
     background: #ff6060;
@@ -11,14 +12,26 @@
     justify-content: space-between;
     align-items: center;
 
+    @media screen and (max-width: 768px) {
+      width: 95%;
+      height: 30px;
+    }
+
     p.title {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 700;
-      line-height: 22px;
+      line-height: 25px;
+      @media screen and (max-width: 768px) {
+        font-size: 13px;
+      }
     }
 
     img {
       cursor: pointer;
+      @media screen and (max-width: 768px) {
+        width: 16px;
+        height: 16px;
+      }
 
       &.active {
         transform: rotate(180deg);
@@ -36,8 +49,14 @@
     background: #fbfbfb;
     padding: 10px 15px;
     line-height: 25px;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 400;
     height: auto;
     // display: none;
+
+    @media screen and (max-width: 768px) {
+      font-size: 12px;
+      line-height: 17px;
+    }
   }
 }

@@ -22,5 +22,5 @@ export default function Collapse(props) {
       </div>
       {isopen && <div className="collapse-content">{props.children}</div>}
     </div>
-  );
+  ); 
 }
