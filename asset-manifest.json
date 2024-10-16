@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Location-immo-avec-React/static/css/main.0c509519.css",
-    "main.js": "/Location-immo-avec-React/static/js/main.8d080048.js",
-    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.png": "/Location-immo-avec-React/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.abab3f12f4cb82f1dfa1.png",
-    "static/media/banner_home.png": "/Location-immo-avec-React/static/media/banner_home.d00ae7dd3ef927bb988d.png",
-    "index.html": "/Location-immo-avec-React/index.html",
-    "main.0c509519.css.map": "/Location-immo-avec-React/static/css/main.0c509519.css.map",
-    "main.8d080048.js.map": "/Location-immo-avec-React/static/js/main.8d080048.js.map"
+    "main.css": "/hugues77/Location-immo-avec-React/static/css/main.27b4dcf8.css",
+    "main.js": "/hugues77/Location-immo-avec-React/static/js/main.ac765b47.js",
+    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.png": "/hugues77/Location-immo-avec-React/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.abab3f12f4cb82f1dfa1.png",
+    "static/media/banner_home.png": "/hugues77/Location-immo-avec-React/static/media/banner_home.d00ae7dd3ef927bb988d.png",
+    "index.html": "/hugues77/Location-immo-avec-React/index.html",
+    "main.27b4dcf8.css.map": "/hugues77/Location-immo-avec-React/static/css/main.27b4dcf8.css.map",
+    "main.ac765b47.js.map": "/hugues77/Location-immo-avec-React/static/js/main.ac765b47.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c509519.css",
-    "static/js/main.8d080048.js"
+    "static/css/main.27b4dcf8.css",
+    "static/js/main.ac765b47.js"
   ]
 }
