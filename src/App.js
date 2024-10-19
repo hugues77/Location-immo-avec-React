@@ -24,18 +24,17 @@ function App() {
               <Route path="*" element={<Error />} />
             </Routes>
           </main>
-        </div>
-
-        <footer>
-          <div className="footer">
-            <p>
-              <img src={LogoFooter} alt="Footer kasa" />
-            </p>
-            <div className="footer-phone">
-              <span> © 2020 Kasa. All rights reserved</span>
+          <footer>
+            <div className="footer">
+              <p>
+                <img src={LogoFooter} alt="Footer kasa" />
+              </p>
+              <div className="footer-phone">
+                <span> © 2020 Kasa. All rights reserved</span>
+              </div>
             </div>
-          </div>
-        </footer>
+          </footer>
+        </div>
       </div>
     </>
   );

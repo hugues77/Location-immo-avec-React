@@ -42,6 +42,7 @@ $main-color: #ff6060;
   width: 100%;
   max-width: 1240px;
   padding: 0 60px;
+  margin: 0 auto;
 
   @media screen and (max-width: 768px) {
     // max-width: 768px;
@@ -67,6 +68,8 @@ footer .footer {
     font-weight: 500;
   }
   @media screen and (max-width: 768px) {
+    // width: 93%;
+
     .footer-phone {
       width: 133px;
       span {
