@@ -1,10 +1,10 @@
 import React from "react";
 import "./home.scss";
-import Banner from "../../components/banner/banner";
-import Card from "../../components/card/card";
+import {Banner} from "../../components/banner/banner";
+import {Card} from "../../components/card/card";
 import BannerHome from "../../img/banner_home.png";
 
-export default function Home() {
+export const Home = () => {
   return (
     <>
       <Banner image={BannerHome} title="Chez vous, partout et ailleurs" />

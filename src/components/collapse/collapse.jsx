@@ -2,10 +2,10 @@ import React, { children, useState } from "react";
 import "./collapse.scss";
 import ArrowBack from "../../img/arrow_back.png";
 
-export default function Collapse(props) {
+export const Collapse = (props) => {
   const [isopen, setIsopen] = useState(false);
 
-  const toggleBtn = () => {
+  const toggleBtn = () => { 
     setIsopen(!isopen);
   };
   return (
@@ -22,5 +22,5 @@ export default function Collapse(props) {
       </div>
       {isopen && <div className="collapse-content">{props.children}</div>}
     </div>
-  ); 
-}
+  );
+};

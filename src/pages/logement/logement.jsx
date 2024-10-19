@@ -1,15 +1,15 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Slideshow from "../../components/slideshow/slideshow";
+import {Slideshow} from "../../components/slideshow/slideshow";
 import dataLogements from "../../data/logements.json";
-import Collapse from "../../components/collapse/collapse";
-import Stars from "../../components/star/stars";
-import Tags from "../../components/tags/tags";
+import { Collapse } from "../../components/collapse/collapse";
+import {Stars} from "../../components/star/stars";
+import {Tags} from "../../components/tags/tags";
 
 import "./logement.scss";
 
-export function Logement() {
+export const Logement = () => {
   const { id } = useParams();
   const redirect = useNavigate();
   const [logement, setLogement] = useState(null);
@@ -30,7 +30,7 @@ export function Logement() {
     }
   }, [id, redirect]);
 
-  return ( 
+  return (
     <div>
       {logement && (
         <div className="main-logement">

@@ -6,7 +6,7 @@ import ArrowRight from "../../img/V_right.png";
 
 // import { useNavigate, useParams } from "react-router-dom";
 
-export default function Slideshow({ images }) {
+export const Slideshow = ({ images }) => {
   // console.log(images);
   //id qui n'a qu'une image: 2139a317
 

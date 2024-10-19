@@ -3,7 +3,7 @@ import "./stars.scss";
 import Ratings from "../../img/star-active.png";
 import RatingsFalse from "../../img/_Rate_false.png";
 
-export default function Stars({ rating }) {
+export const Stars = ({ rating }) => {
   const stars = [];
 
   for (let i = 0; i < 5; i++) {

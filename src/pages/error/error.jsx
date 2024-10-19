@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./error.scss";
 
-export default function Error() {
+export const Error = () => {
   return (
     <main className="error">
       <p className="title-404">404</p>

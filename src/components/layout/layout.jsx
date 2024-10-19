@@ -4,7 +4,7 @@ import LogoHeader from "../../img/LOGO_header.png";
 import LogoHeaderPhone from "../../img/LOGO_header_phone.png";
 import "./layout.scss";
 
-export default function Layout() {
+export const Layout = () => {
   return (
     <>
       <nav className="navbar">

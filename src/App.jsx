@@ -3,14 +3,14 @@ import React from "react";
 import "./css/App.scss";
 import { Routes, Route } from "react-router-dom";
 
-import Home from "./pages/home/home";
-import About from "./pages/about/about";
+import { Home } from "./pages/home/home";
+import { About } from "./pages/about/about";
 import { Logement } from "./pages/logement/logement";
-import Layout from "./components/layout/layout";
-import Error from "./pages/error/error";
-import LogoFooter from "./img/LOGO_footer.png";
+import { Layout } from "./components/layout/layout";
+import { Error } from "./pages/error/error";
+import { Footer } from "./components/footer/footer";
 
-function App() {
+export const App = () => {
   return (
     <>
       <div className="App">
@@ -25,19 +25,11 @@ function App() {
             </Routes>
           </main>
           <footer>
-            <div className="footer">
-              <p>
-                <img src={LogoFooter} alt="Footer kasa" />
-              </p>
-              <div className="footer-phone">
-                <span> © 2020 Kasa. All rights reserved</span>
-              </div>
-            </div>
+            <Footer />
           </footer>
         </div>
       </div>
     </>
   );
-}
+};
 
-export default App;

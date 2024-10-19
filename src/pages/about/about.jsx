@@ -1,11 +1,11 @@
 import React from "react";
 import "./about.scss";
-import Banner from "../../components/banner/banner";
+import {Banner} from "../../components/banner/banner";
 import BannerAbout from "../../img/kalen-emsley-Bkci_8qcdvQ-unsplash.png";
-import Collapse from "../../components/collapse/collapse";
+import { Collapse } from "../../components/collapse/collapse";
 import AboutContent from "../../data/collapseContent.json";
 
-export default function About() {
+export const About = () => {
   // console.log(AboutContent);
   return (
     <>
